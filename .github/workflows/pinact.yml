@@ -1,9 +1,7 @@
 name: pinact
 
 on:
-  pull_request:
-    paths:
-      - .github/workflows/**
+  workflow_call:
 
 jobs:
   pinact:
